@@ -1,0 +1,27 @@
+// place your custom styles here
+
+// 侧边栏sadebar，文字不换行，超出宽度显示...
+.sidebar-links > li > a,
+.sidebar-group>button>.title {
+    overflow: hidden; //超出的文本隐藏
+    text-overflow: ellipsis; //溢出用省略号显示
+    white-space: nowrap; // 默认不换行；
+}
+
+#sidebar {
+    padding-left: 0px;
+    width: 20rem;
+}
+
+.theme-container {
+    .page{
+        padding-inline-start:calc(var(--sidebar-space) + -6rem);
+    }
+}
+
+body{
+    //nosetime
+    // font-family: "PingFang SC,Lantinghei SC,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans";
+    //掘金
+    font-family: "-apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial!important";
+}
