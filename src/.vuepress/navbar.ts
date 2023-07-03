@@ -4,21 +4,21 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "指南",
+    text: "Book",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/book/",
     children: [
       {
-        text: "Bar",
+        text: "笔记",
         icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        prefix: "notes/note/",
+        children: ["参考文档", { text: "...", icon: "ellipsis", link: "" }],
       },
       {
-        text: "Foo",
+        text: "代码片段",
         icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        prefix: "snippet/",
+        children: ["readme", { text: "...", icon: "ellipsis", link: "" }],
       }
     ],
   },

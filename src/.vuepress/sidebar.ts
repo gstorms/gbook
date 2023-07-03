@@ -24,12 +24,6 @@ export default sidebar({
       link:"log/",
       children:"structure"
     },
-    {
-      text: "guide",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
     "slides",
   ],
 });

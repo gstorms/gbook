@@ -17,10 +17,10 @@ actions:
   - text: 文档
     link: ./guide/
   
-  - book: Book
+  - text: Book
     link: ./book/
 
-  - log: Log
+  - text: Log
     link: ./log/
 
 highlights:
