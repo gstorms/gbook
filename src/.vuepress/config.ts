@@ -10,6 +10,7 @@ export default defineUserConfig({
   description: "vuepress-theme-hope 的文档演示",
   port: 8083,
 
+  pagePatterns: ["**/*.md","!**/*.n.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
   theme,
 
   // Enable it with pwa

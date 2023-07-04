@@ -30,7 +30,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      "/log/changelog.html":["asdf"]
     },
   },
 

@@ -2,7 +2,6 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
     text: "Book",
     icon: "lightbulb",
@@ -12,16 +11,17 @@ export default navbar([
         text: "笔记",
         icon: "lightbulb",
         prefix: "notes/note/",
-        children: ["参考文档", { text: "...", icon: "ellipsis", link: "" }],
+        children: ["参考文档"],
       },
       {
         text: "代码片段",
         icon: "lightbulb",
         prefix: "snippet/",
-        children: ["readme", { text: "...", icon: "ellipsis", link: "" }],
-      }
+        children: ["readme"],
+      },
     ],
   },
+  "/log/",
   {
     text: "V2 文档",
     icon: "book",

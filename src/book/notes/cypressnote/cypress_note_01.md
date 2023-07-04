@@ -24,21 +24,3 @@ import "cypress-real-events/support";
 cy.get("button").realHover();
 cy.get("button").realHover(options);
 ```
-
-::: tabs
-
-@tab 标题 1
-111
-<!-- tab 1 内容 -->
-
-@tab 标题 2
-222
-<!-- tab 2 内容 -->
-
-@tab:active 标题 3
-333
-<!-- tab 3 将会被默认激活 -->
-
-<!-- tab 3 内容 -->
-
-:::
